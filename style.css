@@ -1,0 +1,10 @@
+textarea {
+  width: 90svw;
+  resize: none;
+  margin-block: 0;
+}
+
+button {
+  margin-block: 1svh;
+  width: 10svw;
+}
