@@ -9,7 +9,7 @@ document.getElementById("exec").addEventListener("click", (event) => {
         row += 1;
         return accumulator + char + `${row} `;
       }
-      else 
+      else
         return accumulator + char;
     }, "");
 
