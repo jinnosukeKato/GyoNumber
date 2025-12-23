@@ -1,8 +1,6 @@
-document.getElementById("exec").addEventListener("click", (event) => {
-  const input = document.getElementById("input");
-
+document.getElementById("input").addEventListener("input", (event) => {
   let row = 1;
-  const result = input.value
+  const result = event.target.value
     .split("")
     .reduce((accumulator, char) => {
       if (char === "\n"){
